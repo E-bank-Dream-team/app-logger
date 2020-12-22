@@ -26,7 +26,7 @@
     </encoder>
   </appender>
 
-  <logger name="com.example.AppLogger" level="debug" additivity="false">
+  <logger name="com.example.logger.AppLogger" level="debug" additivity="false">
     <appender-ref ref="console" />
     <appender-ref ref="all-logs-file" />
   </logger>
