@@ -9,6 +9,14 @@
     <version>1.0-SNAPSHOT</version>
     <name>AppLogger</name>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub E-Bank Dream Team Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/e-bank-dream-team/app-logger</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.source>11</maven.compiler.source>
