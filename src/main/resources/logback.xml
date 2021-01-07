@@ -1,3 +1,3 @@
 <configuration>
-    <include resource="logback_basic_included.xml"/>
+    <include resource="logback_applogger.xml"/>
 </configuration>
